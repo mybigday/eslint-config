@@ -15,6 +15,6 @@ module.exports = {
   rules: {
     strict: 'error',
     // disallow use of console
-    'no-console': 'warning',
+    'no-console': 'warn',
   },
 }

@@ -9,7 +9,7 @@ module.exports = {
 
     // require all requires be top-level
     // https://eslint.org/docs/rules/global-require
-    'global-require': 'warning',
+    'global-require': 'warn',
 
     // enforces error handling in callbacks (node environment)
     'handle-callback-err': 'off',

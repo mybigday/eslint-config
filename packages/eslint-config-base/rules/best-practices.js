@@ -89,7 +89,7 @@ module.exports = {
     'no-eval': 'error',
 
     // disallow adding to native types
-    'no-extend-native': 'warning',
+    'no-extend-native': 'warn',
 
     // disallow unnecessary function binding
     'no-extra-bind': 'error',
