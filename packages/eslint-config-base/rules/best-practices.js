@@ -21,7 +21,7 @@ module.exports = {
     'consistent-return': 'error',
 
     // specify curly brace conventions for all control statements
-    curly: 'all',
+    curly: 'error',
 
     // require default case in switch statements
     'default-case': 'off',
