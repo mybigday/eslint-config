@@ -1,0 +1,21 @@
+name: CI
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Setup base env
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm i -g lerna makeshift wait-on
+          makeshift -r registry.npmjs.org -t $NPM_TOKEN
+      - name: Run build & test
+        run: |
+          yarn
+          yarn test

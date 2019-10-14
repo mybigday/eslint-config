@@ -1,0 +1,13 @@
+{
+  "name": "@fugood/eslint-config-base",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "confusing-browser-globals": "^1.0.9"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4.19.1"
+  }
+}

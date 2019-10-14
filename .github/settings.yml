@@ -1,0 +1,72 @@
+repository:
+  name: eslint-config
+  description: ESLint config of MyBigDay
+  private: true
+  has_issues: true
+  has_wiki: true
+  has_downloads: true
+  default_branch: master
+  allow_squash_merge: true
+  allow_merge_commit: true
+  allow_rebase_merge: true
+
+labels:
+  - name: dependencies
+    color: 0366d6
+  - name: javascript
+    color: 168700
+  - name: security
+    color: ee0701
+  - name: bug
+    color: CC0000
+  - name: feature
+    color: 1d76db
+  - name: help wanted
+    color: 33aa3f
+  - name: duplicate
+    color: cfd3d7
+  - name: enhancement
+    color: a2eeef
+  - name: help wanted
+    color: 008672
+  - name: question
+    color: d876e3
+  - name: invalid
+    color: e4e669
+  - name: wontfix
+    color: ffffff
+  - name: feature
+    color: 336699
+  - name: urgent
+    color: fbca04
+  - name: trivial
+    oldname: good first issue
+    color: afffb2
+  - name: has PR
+    color: 3100ad
+  - name: greenkeeper
+    color: 00c775
+  - name: documentation
+    color: a1ed95
+  - name: RFC
+    color: 3100ad
+  - name: WIP
+    color: e4e669
+  - name: don't merge
+    color: CC0000
+  - name: stale
+    color: ffffff
+  - name: cannot-reproduce
+    color: bfdadc
+  - name: more-information-needed
+    color: c2e0c6
+  - name: confirm-needed
+    color: 336699
+  - name: breaking-change
+    color: CC0000
+
+  # Packages
+  - name: eslint-config-base
+    color: f7e78f
+  - name: eslint-config-react
+    color: f7e78f
