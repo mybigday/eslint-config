@@ -15,7 +15,7 @@ jobs:
         run: |
           npm i -g lerna makeshift wait-on
           makeshift -r registry.npmjs.org -t $NPM_TOKEN
-      - name: Run build & test
+      - name: Run test
         run: |
           yarn
           yarn test
