@@ -18,6 +18,6 @@ module.exports = {
 
     // Disallow unsafe regular expressions
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md
-    'unicorn/no-unsafe-regex': 'off',
+    'unicorn/no-unsafe-regex': 'error',
   },
 }

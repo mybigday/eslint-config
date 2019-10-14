@@ -21,14 +21,7 @@ module.exports = {
     ),
 
     // disallow declaration of variables already declared in the outer scope
-    'no-shadow': [
-      'error',
-      {
-        builtinGlobals: true,
-        hoist: 'functions',
-        allow: ['resolve', 'reject', 'done'],
-      },
-    ],
+    'no-shadow': 'error',
 
     // disallow shadowing of names such as arguments
     'no-shadow-restricted-names': 'error',
@@ -37,7 +30,7 @@ module.exports = {
     'no-undef': 'error',
 
     // disallow use of undefined when initializing variables
-    'no-undef-init': 'off',
+    'no-undef-init': 'error',
 
     // disallow use of undefined variable
     // https://eslint.org/docs/rules/no-undefined
@@ -47,10 +40,13 @@ module.exports = {
     // disallow declaration of variables that are not used in the code
     'no-unused-vars': [
       'error',
-      { vars: 'all', args: 'none', ignoreRestSiblings: false },
+      { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
     ],
 
     // disallow use of variables before they are defined
-    'no-use-before-define': 'off',
+    'no-use-before-define': [
+      'error',
+      { functions: true, classes: true, variables: true },
+    ],
   },
 }
