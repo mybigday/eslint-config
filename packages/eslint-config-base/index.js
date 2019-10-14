@@ -8,5 +8,6 @@ module.exports = {
     './rules/best-practices',
     './rules/node',
     './rules/es6',
+    './rules/imports',
   ].map(require.resolve),
 }
