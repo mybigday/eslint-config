@@ -7,6 +7,8 @@ test('Base config', async () => {
       'eslint --config packages/eslint-config-base/index.js packages/eslint-config-base/fixtures/',
     )
   } catch (e) {
-    expect(e.stdout).toMatchSnapshot()
+    expect(
+      e.stdout.replace(new RegExp(process.cwd(), 'g'), ''),
+    ).toMatchSnapshot()
   }
 })
