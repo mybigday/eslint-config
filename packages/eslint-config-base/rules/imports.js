@@ -68,6 +68,7 @@ module.exports = {
           'test/**', // tape, common npm pattern
           'tests/**', // also common npm pattern
           'spec/**', // mocha, rspec-like pattern
+          '**/.jest/**', // jest setup
           '**/scripts/**', // custom scripts
           '**/__tests__/**', // jest pattern
           '**/__e2e__/**', // jest pattern
