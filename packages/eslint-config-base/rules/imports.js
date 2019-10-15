@@ -65,10 +65,10 @@ module.exports = {
       'error',
       {
         devDependencies: [
-          'scripts/**', // custom scripts
           'test/**', // tape, common npm pattern
           'tests/**', // also common npm pattern
           'spec/**', // mocha, rspec-like pattern
+          '**/scripts/**', // custom scripts
           '**/__tests__/**', // jest pattern
           '**/__e2e__/**', // jest pattern
           '**/__mocks__/**', // jest pattern
