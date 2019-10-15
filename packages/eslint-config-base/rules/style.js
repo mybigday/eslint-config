@@ -447,7 +447,7 @@ module.exports = {
       'error',
       {
         allow: ['_id'],
-        allowAfterThis: false,
+        allowAfterThis: true,
         allowAfterSuper: false,
         enforceInMethodNames: true,
       },
