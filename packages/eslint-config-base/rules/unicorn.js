@@ -22,8 +22,8 @@ module.exports = {
     'unicorn/number-literal-case': 'error',
     'unicorn/new-for-builtins': 'error',
     'unicorn/expiring-todo-comments': 'error',
-    'unicorn/no-keyword-prefix': 'error',
 
+    'unicorn/no-keyword-prefix': 'off',
     'unicorn/prevent-abbreviations': 'off',
   },
 }
