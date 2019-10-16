@@ -17,12 +17,13 @@ module.exports = {
     'unicorn/regex-shorthand': 'error',
     'unicorn/no-unsafe-regex': 'error',
     'unicorn/no-array-instanceof': 'error',
-    'unicorn/prevent-abbreviations': 'error',
     'unicorn/prefer-type-error': 'error',
     'unicorn/throw-new-error': 'error',
     'unicorn/number-literal-case': 'error',
     'unicorn/new-for-builtins': 'error',
     'unicorn/expiring-todo-comments': 'error',
     'unicorn/no-keyword-prefix': 'error',
+
+    'unicorn/prevent-abbreviations': 'off',
   },
 }
