@@ -8,16 +8,21 @@ module.exports = {
   },
   plugins: ['unicorn'],
   rules: {
-    // Enforce specifying rules to disable in eslint-disable comments
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-abusive-eslint-disable.md
+    // https://github.com/sindresorhus/eslint-plugin-unicorn#rules
+    'unicorn/error-message': 'error',
+    'unicorn/explicit-length-check': 'error',
+    'unicorn/import-index': 'error',
+    'unicorn/no-process-exit': 'error',
     'unicorn/no-abusive-eslint-disable': 'error',
-
-    // Enforce the use of regex shorthands to improve readability
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
     'unicorn/regex-shorthand': 'error',
-
-    // Disallow unsafe regular expressions
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md
     'unicorn/no-unsafe-regex': 'error',
+    'unicorn/no-array-instanceof': 'error',
+    'unicorn/prevent-abbreviations': 'error',
+    'unicorn/prefer-type-error': 'error',
+    'unicorn/throw-new-error': 'error',
+    'unicorn/number-literal-case': 'error',
+    'unicorn/new-for-builtins': 'error',
+    'unicorn/expiring-todo-comments': 'error',
+    'unicorn/no-keyword-prefix': 'error',
   },
 }
