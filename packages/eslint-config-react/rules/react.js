@@ -473,6 +473,8 @@ module.exports = {
     // Only Call Hooks at the Top Level, and only Call Hooks from React Functions
     // https://reactjs.org/docs/hooks-rules.html
     'react-hooks/rules-of-hooks': 'error',
+    // Checks effect dependencies
+    'react-hooks/exhaustive-deps': 'warn',
   },
 
   settings: {
