@@ -9,6 +9,7 @@ module.exports = {
     './rules/node',
     './rules/es6',
     './rules/imports',
+    'eslint-config-prettier',
   ].map(require.resolve),
   parserOptions: {
     ecmaFeatures: {
