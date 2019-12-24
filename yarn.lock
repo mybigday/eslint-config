@@ -7316,9 +7316,9 @@ yargs@^14.2.2:
     y18n "^4.0.0"
     yargs-parser "^15.0.0"
 
-yarn-workspace-sync-deps@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/yarn-workspace-sync-deps/-/yarn-workspace-sync-deps-0.2.1.tgz#6e60c5fd2b3caddfb44a48c53eb34b0411129383"
-  integrity sha512-dHtrJAOPAa0oMFdkD2KJNp6jcKnz9gi+DCEGkN6OWTfwsGNQgBa4sF0IgYxcb/xyRZKC/khiS2ehHDZIi/pjfw==
+yarn-workspace-sync-deps@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/yarn-workspace-sync-deps/-/yarn-workspace-sync-deps-0.3.0.tgz#3fd2226bfcb4b4188637df787b097c8d4cbbdd1f"
+  integrity sha512-ekmJlDmapGlcj4AzbktzOeGhlDpUO+IKGNmWIe4SZ2+Hwex6xL1PeW5Pq1B0Zu/3fZ0PLW9rc0dpYUMQWHLjJw==
   dependencies:
     minimist "^1.2.0"

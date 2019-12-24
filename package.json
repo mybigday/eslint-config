@@ -21,6 +21,6 @@
     "eslint-plugin-unicorn": "^15.0.0",
     "jest": "^24.9.0",
     "lerna": "^3.10.5",
-    "yarn-workspace-sync-deps": "^0.2.1"
+    "yarn-workspace-sync-deps": "^0.3.0"
   }
 }
