@@ -18,7 +18,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^3.0.0",
-    "eslint-plugin-unicorn": "^18.0.0",
+    "eslint-plugin-unicorn": "^19.0.1",
     "jest": "^25.1.0",
     "lerna": "^3.10.5",
     "yarn-workspace-sync-deps": "^0.3.0"
