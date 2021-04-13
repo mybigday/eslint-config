@@ -3,7 +3,6 @@ module.exports = {
     '@fugood/eslint-config-base',
     './rules/react',
     './rules/jsx-a11y',
-    'eslint-config-prettier/react',
   ].map(require.resolve),
   rules: {},
   parserOptions: {
