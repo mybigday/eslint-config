@@ -1,6 +1,6 @@
 {
   "name": "@fugood/eslint-config-react",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "index.js",
   "dependencies": {
     "@fugood/eslint-config-base": "^0.3.1",
