@@ -8,7 +8,7 @@
     "confusing-browser-globals": "^1.0.9",
     "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-import": "^2.25.1",
-    "eslint-plugin-unicorn": "^37.0.1"
+    "eslint-plugin-unicorn": "^38.0.0"
   },
   "peerDependencies": {
     "eslint": ">= 4.19.1"
