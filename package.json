@@ -20,7 +20,7 @@
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-unicorn": "^40.0.0",
     "jest": "^29.0.0",
-    "lerna": "^5.1.0",
+    "lerna": "^6.0.0",
     "yarn-workspace-sync-deps": "^0.3.0"
   }
 }
