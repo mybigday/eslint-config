@@ -15,7 +15,6 @@ module.exports = {
     'unicorn/no-process-exit': 'error',
     'unicorn/no-abusive-eslint-disable': 'error',
     'unicorn/better-regex': 'error',
-    'unicorn/no-unsafe-regex': 'error',
     'unicorn/no-instanceof-array': 'error',
     'unicorn/prefer-type-error': 'error',
     'unicorn/throw-new-error': 'error',
@@ -24,6 +23,7 @@ module.exports = {
     'unicorn/expiring-todo-comments': 'error',
 
     'unicorn/no-keyword-prefix': 'off',
+    'unicorn/no-unsafe-regex': 'off',
     'unicorn/prevent-abbreviations': 'off',
   },
 }
