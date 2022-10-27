@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   extends: [
     './rules/unicorn',
     './rules/errors',
@@ -15,5 +15,6 @@ module.exports = {
     ecmaFeatures: {
       legacyDecorators: true,
     },
+    requireConfigFile: false,
   },
 }
