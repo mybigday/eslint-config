@@ -12,9 +12,6 @@ module.exports = {
     'eslint-config-prettier',
   ].map(require.resolve),
   parserOptions: {
-    ecmaFeatures: {
-      legacyDecorators: true,
-    },
     requireConfigFile: false,
   },
 }
