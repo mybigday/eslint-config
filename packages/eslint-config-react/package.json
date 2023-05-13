@@ -1,9 +1,9 @@
 {
   "name": "@fugood/eslint-config-react",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "index.js",
   "dependencies": {
-    "@fugood/eslint-config-base": "^0.5.0",
+    "@fugood/eslint-config-base": "^0.5.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
