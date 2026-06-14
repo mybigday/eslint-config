@@ -1,6 +1,15 @@
 {
   "name": "@fugood/eslint-config-react",
   "version": "0.5.1",
+  "homepage": "https://github.com/mybigday/eslint-config/tree/master/packages/eslint-config-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mybigday/eslint-config.git",
+    "directory": "packages/eslint-config-react"
+  },
+  "bugs": {
+    "url": "https://github.com/mybigday/eslint-config/issues"
+  },
   "main": "index.js",
   "dependencies": {
     "@fugood/eslint-config-base": "^0.5.1",
